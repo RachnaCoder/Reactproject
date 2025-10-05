@@ -34,5 +34,6 @@
 .featureCard p {
   font-size: 20px;
   color: black;
-  line-height: 1.6;
+  line-height: 1.1;
+  margin-bottom: 5px;
 }

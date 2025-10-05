@@ -36,32 +36,32 @@ const TestimonialPage = () => {
 
 
 {
- name:"Vanshika Rai",
+ name:"Aryan Rajput",
  image:"./src/assets/profilepic5.png" ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 
 {
- name:"Vanshika Rai",
+ name:"Shivam Rai",
  image:"./src/assets/profilepic6.png" ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
- name:"Vanshika Rai",
+ name:"Vaishnavi Jaiswal",
  image:"./src/assets/profilepic7.png" ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
- name:"Vanshika Rai",
+ name:"Prakhar Awasthi",
  image:"./src/assets/profilepic8.png" ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
- name:"Vanshika Rai",
+ name:"Prachi Aggarwal",
  image:"./src/assets/profilepic9.png" ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
