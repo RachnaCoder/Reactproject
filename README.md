@@ -8,8 +8,17 @@
 
 ## 📸 Preview
 
-![IELTS Prep Homepage](./screenshot.png)
-*Homepage showcasing all sections with responsive design*
+![IELTS Prep Homepage](https://github.com/RachnaCoder/Reactproject/blob/9a0fd6f35d181bdeab2013e3a0749af37063c075/Screenshot%202025-10-06%20001102.png)<br>
+
+![IELTS Prep Homepage](https://github.com/RachnaCoder/Reactproject/blob/9a0fd6f35d181bdeab2013e3a0749af37063c075/Screenshot%202025-10-06%20001125.png)<br>
+
+![IELTS Prep Homepage](https://github.com/RachnaCoder/Reactproject/blob/9a0fd6f35d181bdeab2013e3a0749af37063c075/Screenshot%202025-10-06%20005227.png)<br>
+
+![IELTS Prep Homepage](https://github.com/RachnaCoder/Reactproject/blob/9a0fd6f35d181bdeab2013e3a0749af37063c075/Screenshot%202025-10-06%20005241.png)<br>
+
+![IELTS Prep Homepage](https://github.com/RachnaCoder/Reactproject/blob/9a0fd6f35d181bdeab2013e3a0749af37063c075/Screenshot%202025-10-06%20010153.png)<br>
+
+
 
 ## ✨ Features
 
