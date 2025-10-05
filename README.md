@@ -1,18 +1,57 @@
-# React + Vite
+# 🎓 IELTS Prep Institute
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, responsive homepage for IELTS preparation institute built with React JS and CSS Modules.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://your-demo-link.com)
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![CSS Modules](https://img.shields.io/badge/CSS-Modules-yellow.svg)](https://github.com/css-modules/css-modules)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+![IELTS Prep Homepage](./screenshot.png)
+*Homepage showcasing all sections with responsive design*
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Features
 
-Note: This will impact Vite dev & build performances.
+- 📱 **Fully Responsive** - Works seamlessly on mobile, tablet, and desktop
+- 🎨 **Modern UI/UX** - Clean, professional design with smooth animations
+- ⚡ **Performance Optimized** - Fast loading with component-based architecture
+- 🧩 **Modular Components** - Reusable React components with CSS Modules
+- 🎯 **Accessible** - Built following accessibility best practices
+- 📐 **CSS Grid Layout** - Responsive grid system for course and testimonial cards
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React JS](https://reactjs.org/) - Frontend framework
+- [CSS Modules](https://github.com/css-modules/css-modules) - Component-scoped styling
+- [React Router DOM](https://reactrouter.com/) - Navigation
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon library
+- [Vite](https://vitejs.dev/) - Build tool
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js 16.0 or later
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+     git clone https://github.com/yourusername/ielts-prep-website.git
+     cd ielts-prep-website
+
+
+2. **Install dependencies**
+    npm install
+
+ 
+3. **Start the development server**
+     npm run dev
+
+4. **Open your browser**
+     Navigate to http://localhost:5173
+
+  
+
+
