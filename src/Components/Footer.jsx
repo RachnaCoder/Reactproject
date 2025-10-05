@@ -82,7 +82,7 @@ const Footer = () => {
           <a href="#" style={{ color: '#8b9bb4', textDecoration: 'none' }}>Legal notice</a>
           <a href="#" style={{ color: '#8b9bb4', textDecoration: 'none' }}>Terms of service</a>
         </div>
-        <p style={{ margin: 0, fontSize: '14px' }}>© 2025 YourCompany</p>
+        <p style={{ margin: 0, fontSize: '14px' }}>© 2025 IELTS Prep</p>
       </div>
     </footer>
   );

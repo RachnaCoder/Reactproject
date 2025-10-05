@@ -1,4 +1,3 @@
-import Navbar  from "../Components/Navbar.jsx"
 import Header from "../Components/Header.jsx"
 import { GiOpenBook } from 'react-icons/gi';
 import { IoNewspaperSharp } from 'react-icons/io5';
@@ -73,7 +72,7 @@ const testimonials=[
 const Homepage = () => {
   return (
     <>
-    <Navbar/>
+    
     <Header/>
     <div className="Cardcontainer">
       {features.map((feature, index) => (
@@ -116,9 +115,9 @@ const Homepage = () => {
 
 
     <div className="testimonialCards">
-     {testimonials.map((t,idx) =>(
+     {testimonials.map((t,index) =>(
     <TestimonialCard 
-    key={t.idx}
+    key={index}
     image={t.image}
     name={t.name}
     improvement={t.improvement}

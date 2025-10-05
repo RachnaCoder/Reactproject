@@ -4,6 +4,7 @@ import styles from "./Navbar.module.css";
 import { BiMenu } from 'react-icons/bi';
 import { useState } from 'react';
 
+
 const Navbar = () => {
   const[IsSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -14,6 +15,7 @@ const Navbar = () => {
   const closeSidebar=()=>{
     setIsSidebarOpen(false);
   }
+
   return (
     <>
     <nav className={styles.navbar}>
@@ -23,7 +25,7 @@ const Navbar = () => {
         </div>
       <ul className={styles.navlinks}>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/courses">Courses</Link></li>
+        <li><Link to="/CoursesPage">Courses</Link></li>
         <li><Link to="/testimonials">Testimonials</Link></li>
       </ul>
       <button className={styles.navbutton}>Contact</button>
@@ -41,7 +43,7 @@ const Navbar = () => {
         <button className={styles.closeBtn} onClick={closeSidebar}>×</button>
         <ul className={styles.sidebarLinks}>
           <li><Link to="/" onClick={closeSidebar}>Home</Link></li>
-          <li><Link to="/courses" onClick={closeSidebar}>Courses</Link></li>
+          <li><Link to="/CoursesPage" onClick={closeSidebar}>Courses</Link></li>
           <li><Link to="/testimonials" onClick={closeSidebar}>Testimonials</Link></li>
           <li><Link to="/contact" onClick={closeSidebar}>Contact</Link></li>
         </ul>
