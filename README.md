@@ -112,7 +112,7 @@ Created reusable, modular components following React best practices:
 
 ## 🌐 Live Demo
 
-Check out the live version: **[View Demo](https://your-demo-link.com)**
+Check out the live version: **[View Demo](https://reactproject-kkyyvtw58-rachna-yadavs-projects.vercel.app/testimonials)**
 
 
 
