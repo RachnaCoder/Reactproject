@@ -1,0 +1,35 @@
+
+.bannerimage{
+    height: 400px;
+    width:100%;
+    object-fit: cover;
+}
+
+
+/* Mobile phones (up to 480px) */
+@media (width <= 480px) {
+  .bannerimage {
+    height: 150px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (480px <= width <= 768px) {
+  .bannerimage {
+    height: 200px;
+  }
+}
+
+/* Laptops/Small Desktops (769px to 1024px) */
+@media (769px <= width <= 1024px) {
+  .bannerimage {
+    height: 300px;
+  }
+}
+
+/* Large Desktops (1025px and above) */
+@media (width >= 1025px) {
+  .bannerimage {
+    height: 500px;
+  }
+}
