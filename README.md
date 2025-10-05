@@ -110,9 +110,8 @@ Created reusable, modular components following React best practices:
 | **Footer** | Contact information and links |
 
 
-## 🌐 Live Demo
 
-Check out the live version: **[View Demo](reactproject-git-main-rachna-yadavs-projects.vercel.app)**
+
 
 
 
