@@ -18,7 +18,7 @@
 - ⚡ **Performance Optimized** - Fast loading with component-based architecture
 - 🧩 **Modular Components** - Reusable React components with CSS Modules
 - 🎯 **Accessible** - Built following accessibility best practices
-- 📐 **CSS Grid Layout** - Responsive grid system for course and testimonial cards
+- 📐 **CSS Flexbox Layout** - Responsive flexbox system for course and testimonial cards
 
 ## 🛠️ Built With
 
@@ -38,19 +38,75 @@
 ### Installation
 
 1. **Clone the repository**
-     git clone https://github.com/yourusername/ielts-prep-website.git
-     cd ielts-prep-website
+     git clone https://github.com/RachnaCoder/ielts-prep-website.git
+      cd ielts-prep-website
 
 
 2. **Install dependencies**
-    npm install
+       npm install
 
  
 3. **Start the development server**
-     npm run dev
+       npm run dev
 
 4. **Open your browser**
-     Navigate to http://localhost:5173
+      Navigate to http://localhost:5173
+
+
+
+   
+## 🎨 Design Choices
+
+### CSS Modules Architecture
+I implemented **CSS Modules** for component-scoped styling to prevent style conflicts and ensure maintainability. Each component has its own `.module.css` file, providing:
+-  Automatic unique class name generation
+-  True component isolation
+- Better debugging experience
+- No runtime overhead
+
+### Visual Design System
+**Color Palette:** 
+- `#1e3a8a` - Navy Blue (Primary - professionalism & trust)
+- `#fef3e2` - Warm Cream (Background - welcoming atmosphere)  
+- `#d4a62a` - Gold (Accent - CTAs & highlights)
+
+**Typography & Layout:**
+- Clean, readable fonts with proper hierarchy
+- Card-based layouts for better content organization
+- 3D shadow effects for modern depth perception
+- Smooth hover transitions for interactive feedback
+
+### Responsive Strategy
+Utilized **CSS Grid with `auto-fit` and `minmax()`** for fluid responsive layouts:
+- Mobile: 1 column layout
+- Tablet: 2 columns  
+- Desktop: 3 columns
+- Eliminates complex media query management
+
+### Component Architecture
+Created reusable, modular components following React best practices:
+- Co-located CSS modules with components
+- Props-based customization
+- Consistent naming conventions
+- Separation of concerns
+
+## 📱 Sections Included
+
+| Section | Description |
+|---------|-------------|
+| **Navigation** | Responsive navbar with mobile hamburger menu |
+| **Hero** | Eye-catching headline with CTA and banner image |
+| **Features** | 4 service cards (Speaking, Tests, Mentors, Courses) |
+| **Testimonials** | Student success stories with ratings |
+| **Footer** | Contact information and links |
+
+
+## 🌐 Live Demo
+
+Check out the live version: **[View Demo](https://your-demo-link.com)**
+
+
+
 
   
 
