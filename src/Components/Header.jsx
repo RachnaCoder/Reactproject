@@ -6,8 +6,6 @@ const Header = () => {
     <div>
 <img src={banner3} alt="bannerimage" className={styles.bannerimage}/>
 
-
-
     </div>
   )
 }

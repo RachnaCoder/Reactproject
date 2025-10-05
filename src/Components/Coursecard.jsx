@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styles from './Coursecard.module.css';
 import { FaBook } from 'react-icons/fa';
 
