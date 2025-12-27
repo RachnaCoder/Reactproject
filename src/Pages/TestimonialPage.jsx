@@ -3,33 +3,45 @@ import TestimonialCard from '../Components/TestimonialCard'
 import styles from "../TestimonialPage.module.css";
 import Footer from "../Components/Footer.jsx"
 
+
+
+import profilepic1 from '../assets/profilepic1.png';
+import profilepic2 from '../assets/profilepic4.png';
+import profilepic3 from '../assets/profilepic3.png';
+import profilepic4 from '../assets/profilepic2.png';
+import profilepic5 from '../assets/profilepic5.png';
+import profilepic6 from '../assets/profilepic6.png';
+import profilepic7 from '../assets/profilepic7.png';
+import profilepic8 from '../assets/profilepic8.png';
+import profilepic9 from '../assets/profilepic9.png';
+
 const TestimonialPage = () => {
 
     const testimonials=[
 {
  name:"Siddharth shukla",
- image:"./src/assets/profilepic1.png" ,
+ image:profilepic1,
  improvement:"Boosted  my score by two bands",
  testimonial:"Interactive quizzes and instant feedback"
 },
 
 {
  name:"Sivani Maurya",
- image:"./src/assets/profilepic4.png" ,
+ image: profilepic2,
  improvement:"I found this incredibly helpful and userfriendly.",
  testimonial:"Very effective teaching method"
 },
 
 {
  name:"Rahul Singh",
- image:"./src/assets/profilepic3.png" ,
+ image:profilepic3 ,
  improvement:"Boosted  my score by three bands",
  testimonial:"It help me improve my weak areas"
 },
 
 {
  name:"Vanshika Rai",
- image:"./src/assets/profilepic2.png" ,
+ image:profilepic4 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
@@ -37,38 +49,38 @@ const TestimonialPage = () => {
 
 {
  name:"Aryan Rajput",
- image:"./src/assets/profilepic5.png" ,
+ image:profilepic5 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 
 {
  name:"Shivam Rai",
- image:"./src/assets/profilepic6.png" ,
+ image:profilepic6 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
  name:"Vaishnavi Jaiswal",
- image:"./src/assets/profilepic7.png" ,
+ image:profilepic7 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
  name:"Prakhar Awasthi",
- image:"./src/assets/profilepic8.png" ,
+ image:profilepic8 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
  name:"Prachi Aggarwal",
- image:"./src/assets/profilepic9.png" ,
+ image:profilepic9 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
 {
  name:"Vanshika Rai",
- image:"./src/assets/profilepic2.png" ,
+ image:profilepic4 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
