@@ -8,6 +8,13 @@ import TestimonialCard from "../Components/TestimonialCard.jsx";
 import Footer from "../Components/Footer.jsx";
 
 
+
+import profilepic1 from '../assets/profilepic1.png';
+import profilepic2 from '../assets/profilepic4.png';
+import profilepic3 from '../assets/profilepic3.png';
+import profilepic4 from '../assets/profilepic2.png';
+
+
 const features= [
 
   {
@@ -40,28 +47,28 @@ const testimonials=[
 
 {
  name:"Siddharth shukla",
- image:"./src/assets/profilepic1.png" ,
+ image:profilepic1 ,
  improvement:"Boosted  my score by two bands",
  testimonial:"Interactive quizzes and instant feedback"
 },
 
 {
  name:"Sivani Maurya",
- image:"./src/assets/profilepic4.png" ,
+ image:profilepic2,
  improvement:"I found this incredibly helpful and userfriendly.",
  testimonial:"Very effective teaching method"
 },
 
 {
  name:"Rahul Singh",
- image:"./src/assets/profilepic3.png" ,
+ image:profilepic3 ,
  improvement:"Boosted  my score by three bands",
  testimonial:"It help me improve my weak areas"
 },
 
 {
  name:"Vanshika Rai",
- image:"./src/assets/profilepic2.png" ,
+ image:profilepic4,
  improvement:"Boosted  my score by two bands",
  testimonial:"Very effective teaching method"
 },
